@@ -1,5 +1,5 @@
-import './css/style.css';
+import ErrorRepository from './js/ErrorRepository';
 
-import './js/app';
-
-// TODO: write your code in app.js
+const errorRepo = new ErrorRepository();
+console.log(errorRepo.translate(404));
+console.log(errorRepo.translate(700));
